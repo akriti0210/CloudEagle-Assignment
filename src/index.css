@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f4f6f8;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.MuiTableCell-root {
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.MuiPaper-root {
+  background-color: #ffffff;
+}
