@@ -249,7 +249,6 @@ function EditableTable() {
       </Paper>
 
       <Paper>
-        {/* Header as a real table to preserve semantics */}
         <TableContainer>
           <Table stickyHeader>
             <TableHead>
@@ -273,7 +272,6 @@ function EditableTable() {
           </Table>
         </TableContainer>
 
-        {/* Virtualized rows rendered as divs inside a scrolling container to avoid invalid table nesting */}
         <Box sx={{ height: 560, overflow: 'auto' }}>
           <List
             height={560}
